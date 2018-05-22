@@ -1,0 +1,9 @@
+language: lua
+
+addons:
+  apt:
+    packages:
+    - luajit
+
+script:
+- luajit hello.lua
